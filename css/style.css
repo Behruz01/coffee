@@ -63,12 +63,12 @@ button {
 }
 
 button:hover {
-  color: #0e8784;
-  background-color: #fefcf7;
+  background: #66d2cf;
+  border-radius: 6px;
 }
 button:active {
-  color: brown;
-  background-color: gold;
+  background: #e2dedb;
+  border-radius: 6px;
 }
 .header {
   width: 1280px;
@@ -278,6 +278,77 @@ button:active {
 
   color: #83888f;
 }
+.works {
+  position: relative;
+
+  width: 1045px;
+}
+.works__how {
+  font-family: "Fraunces 9pt";
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #83888f;
+}
+.works__line {
+  display: flex;
+  gap: 349px;
+
+  margin-top: 80px;
+  margin-bottom: 67px;
+}
+.works__div-line {
+  position: absolute;
+  top: 125px;
+  left: 10px;
+  z-index: -9;
+
+  width: 760px;
+  height: 1px;
+
+  border: 1px solid #fdd6ba;
+}
+.works__circle {
+  width: 31px;
+  height: 31px;
+
+  background: #fefcf7;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+}
+.works__list {
+  display: flex;
+  gap: 95px;
+  align-items: center;
+}
+.works__item {
+  width: 285px;
+}
+.works__number {
+  font-family: "Fraunces 9pt";
+  font-size: 72px;
+  line-height: 72px;
+
+  color: #fdd6ba;
+}
+.works__info {
+  font-family: "Fraunces 9pt";
+  font-size: 32px;
+  line-height: 36px;
+
+  color: #333d4b;
+
+  width: 255px;
+
+  margin-top: 38px;
+  margin-bottom: 43px;
+}
+.works__text {
+  font-family: "Barlow";
+  color: #333d4b;
+
+  margin-bottom: 64px;
+}
 .footer {
   background-color: #282f38;
   width: 1280px;
@@ -286,7 +357,7 @@ button:active {
   justify-content: space-between;
 
   padding: 47px 85px;
-
+  margin-top: 200px;
 }
 
 .foot-left-div {
